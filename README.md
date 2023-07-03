@@ -12,7 +12,7 @@ DenseNet-169 network pretrained on ImageNet. This vector is then fed to a
 successive series of up-sampling layers, in order to construct the final depth map at half the input resolution. These up-sampling layers and their associated skip-connections form our decoder.
 
 ## Augmentation 
-- Horizontal flipping (i.e., mirroring) of images at a probability of 0.5
+- Horizontal flipping (i.e., mirroring) of images at a probability of 0.5.
 - Color channel permutations, e.g., swapping the red and green channels on the input, with the probability of 0.25.
 
 ## Dataset
